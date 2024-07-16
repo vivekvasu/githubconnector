@@ -1,4 +1,4 @@
-name: Upload to S3
+name: Upload to S3 New
 
 on:
   pull_request:
