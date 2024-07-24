@@ -1,4 +1,4 @@
-name: Upload to S3 New
+name: Upload to S3 New - SDB6
 
 on:
   pull_request:
