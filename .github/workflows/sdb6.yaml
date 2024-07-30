@@ -1,4 +1,4 @@
-name: Upload to S3 - SDB6 - GitHub
+name: Upload to S3 - SDB6
 
 on:
   pull_request:
