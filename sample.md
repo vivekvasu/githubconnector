@@ -313,7 +313,6 @@ You can add inline images using ``new_inline_image`` method. Method will return:
 ```
 mdFile.new_line(mdFile.new_inline_image(text='snow trees', path='./doc/source/images/photo-of-snow-covered-trees.jpg'))
 ```  
-![snow trees](./doc/source/images/photo-of-snow-covered-trees.jpg)
 ### Reference Images
 
 
@@ -330,28 +329,15 @@ mdFile.new_line(mdFile.new_reference_image(text='snow trees', path='./doc/source
 
 With ``Html.image`` you can change size of images in a markdown file. For example you can dothe following for changing width: ``mdFile.new_paragraph(Html.image(path=path, size='200'))``
 
-<img src="./doc/source/images/sunset.jpg" width="200"/>
-
-Or maybe only want to change height: ``mdFile.new_paragraph(Html.image(path=path, size='x300'))``
-
-<img src="./doc/source/images/sunset.jpg" height="300"/>
-
-Or change width and height: ``mdFile.new_paragraph(Html.image(path=path, size='300x300'))``
-
-<img src="./doc/source/images/sunset.jpg" width="300" height="300"/>
 
 ### Align images
 
 
 Html.image allow to align images, too. For example you can run: ``mdFile.new_paragraph(Html.image(path=path, size='300x200', align='center'))``
 
-<p align="center">
-    <img src="./doc/source/images/sunset.jpg" width="300" height="200"/>
-</p>
 
 
 [1]: https://github.com/didix21/mdutils
 [bold]: https://github.com/didix21/mdutils
-[im]: ./doc/source/images/photo-of-snow-covered-trees.jpg
 [italics]: https://github.com/didix21/mdutils
 [md]: https://github.com/didix21/mdutils
