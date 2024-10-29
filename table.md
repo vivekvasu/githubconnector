@@ -1,3 +1,7 @@
+---
+keywords: table
+---
+
 # This is a document created for table
 
 | Syntax      | Description | Syntax      | Description |
